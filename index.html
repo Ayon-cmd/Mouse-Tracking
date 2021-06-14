@@ -17,8 +17,8 @@
            
        </div>
     </section>
+    <---Stat JavaScript--->
     <script>
-   
         var balls = document.getElementsByClassName("ball");
        document.onmousemove = function(){
          var x = event.clientX * 100 / window.innerWidth + "%";
@@ -30,9 +30,6 @@
            balls[i].style.transform = "translate(-"+x+",-"+y+")";
          }
        }
-
-     
        </script>
-     
 </body>
 </html>
